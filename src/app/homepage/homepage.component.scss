@@ -1,0 +1,98 @@
+.nft {
+    height: 71%;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 500px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 610px;
+    border-width: 20px;
+
+    .imageeq {
+        img {
+            height: 280px;
+            width: 260px;
+            border-radius: 5px;
+            padding-top: 20px;
+        }
+    }
+    .text {
+        width: 260px;
+        .title {
+            font-family: "Outfit", sans-serif;
+            color: hsl(0, 0%, 100%);
+            font-size: 16px;
+            transition: color 1s;
+        }
+        .title:hover {
+            color: hsl(178, 100%, 50%);
+        }
+
+        .paragraf {
+            font-family: "Outfit", sans-serif;
+            color: hsl(215, 51%, 70%);
+            opacity: 0.8;
+            font-size: 15px;
+        }
+
+        .imageEth {
+            font-family: "Outfit", sans-serif;
+            display: flex;
+            height: 20px;
+            flex-direction: row;
+            .Eth {
+                color: hsl(178, 100%, 50%);
+                h5 {
+                    margin-top: 2px;
+                    margin-left: 5px;
+                }
+            }
+            .daysLeft {
+                color: hsl(215, 51%, 70%);
+                h5 {
+                    margin-top: -20px;
+                    margin-left: 119px;
+                }
+                img {
+                    margin-left: 100px;
+                }
+            }
+        }
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .creation {
+                h5 {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-family: "Outfit", sans-serif;
+                }
+            }
+            img {
+                height: 40px;
+                width: 40px;
+                border: solid;
+                border-color: white;
+                border-radius: 100%;
+                border-width: 1px;
+            }
+            .jules {
+                h5 {
+                    transition: color 1s;
+                    margin-top: 10px;
+                    font-size: 14px;
+                    color: white;
+                    font-family: "Outfit", sans-serif;
+                    margin-left: 1px;
+                    padding-right: 47px;
+                }
+                h5:hover {
+                    color: hsl(178, 100%, 50%);
+                }
+            }
+        }
+    }
+}
